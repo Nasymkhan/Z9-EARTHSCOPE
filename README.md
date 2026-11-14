@@ -68,9 +68,9 @@ Requirements: **Node.js ≥ 20**, **PostgreSQL ≥ 14**.
 
 ```bash
 npm install
-cp .env.example .env          # then set DATABASE_URL
-npx drizzle-kit push          # create the analyses table
-npm run dev                   # http://localhost:3000
+cp .env.example .env          
+npx drizzle-kit push        
+npm run dev                   
 ```
 
 ### Environment variables
@@ -89,7 +89,7 @@ npm run dev                   # http://localhost:3000
 ```bash
 npm run build && npm run start
 curl localhost:3000/api/health
-curl localhost:3000/api/dev/stats-selftest   # 8/8 deterministic engine/feature checks must pass
+curl localhost:3000/api/dev/stats-selftest  
 ```
 
 The engine is validated against deterministic synthetic datasets (increasing / decreasing / flat / seasonal / 15 % missing / high-noise / daily aggregation). See `/methodology` for the full protocol and results.
