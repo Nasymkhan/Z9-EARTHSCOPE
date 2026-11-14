@@ -53,8 +53,8 @@ export default function Footer() {
               <a href="mailto:bsse-25s-0102@stmu.edu.pk" className="inline-flex items-center gap-2 hover:text-white transition-colors">
                 <Mail size={13} className="text-sky-400" /> bsse-25s-0102@stmu.edu.pk
               </a>
-              <a href="https://github.com/z9-space-labs" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-white transition-colors">
-                <CodeXml size={13} className="text-sky-400" /> github.com/z9-space-labs
+              <a href="https://github.com/Nasymkhan/Z9-EARTHSCOPE" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-white transition-colors">
+                <CodeXml size={13} className="text-sky-400" /> github.com/Nasymkhan/Z9-EARTHSCOPE
               </a>
             </div>
           </div>
